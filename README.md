@@ -56,3 +56,9 @@ HTTPS를 등록하려면 `CA` 인증기관에서 SSL.com을 지원하도록 적�
 여담:
 velog.io 와 github.io (깃허브 블로그)는 영국령 인도양 지역의 인터넷 국가 코드 최상위 도메인이다. io 도메인을 쓰면 기존 com, net이 점유하고 있던 도메인들을 벗어나 새롭게 도메인을 확보할 수 있다고 한다. 개별국가 NIC이 관리하고 주로 회사들이 이용해서 비싸다고...
 ```
+
+### 😃도메인 이름이란?
+
+> 해당 내용은 <a href="https://velog.io/@m-vault/%EB%8F%84%EB%A9%94%EC%9D%B8-%EB%84%A4%EC%9E%84%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94">brogod님의 Velog</a>를 참고하여 만들어졌음을 밝힙니다.
+
+<img src="https://user-images.githubusercontent.com/46777310/187675328-6d610f6f-4ad3-44f5-b4d1-1008ad0a9c82.png">
