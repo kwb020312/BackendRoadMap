@@ -109,6 +109,10 @@ velog.io 와 github.io (깃허브 블로그)는 영국령 인도양 지역의 �
 
 ### 💤OS의 작동원리
 
+> 해당 내용은 <a href="https://velog.io/@codemcd/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9COS-5.-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EA%B4%80%EB%A6%AC">SungBum Park님의 velog</a>를 참고하여 작성되었음을 미리 밝힙니다.
+
+<img src="https://user-images.githubusercontent.com/46777310/187696045-e9236e95-68c7-4c16-a377-617b8c2ecff4.png">
+
 `Operating System`
 
 사용자와 하드웨어 사이의 인터페이스
@@ -119,3 +123,22 @@ velog.io 와 github.io (깃허브 블로그)는 영국령 인도양 지역의 �
 - `보안`
 
 사용자 요청이(`Event`) 발생하면 적절한곳에 일을 분배(`CPU`, `I/O`, `메모리`)하여 처리한다.
+
+### 🚯프로세스 관리
+
+<img src="https://user-images.githubusercontent.com/46777310/187696292-fc67bffb-3277-44bf-9f5d-4a08de9c996c.png">
+
+`프로세스`는 `실행중인 상태`의 프로그램을 말한다.
+
+`프로세스 상태 전이도`에서는 이러한 프로세스를
+
+`New`: 프로그램이 메모리에 할당
+`Ready`: 할당 조건을 충족
+`Running`: CPU가 해당 프로세스 실행
+`Waiting`: 프로세스가 끝나기 다른 작업을 수행 (끝나면 Ready상태로)
+`Terminated`: 프로세스가 종료된다.
+
+<img src="https://user-images.githubusercontent.com/46777310/187697267-39d11e3e-52de-44c4-9943-1af9767b9624.png">
+`PCB`: 프로세스에 대한 모든 정보가 모여있음
+
+`프로세스`는 `프로세스 큐(Queue)` 라는 곳에 모여서 순서를 대기하게 되는데 이렇게 순서를 정해주는 알고리즘을 `스케줄링(Scheduling)`이라 한다.
