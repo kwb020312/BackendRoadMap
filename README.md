@@ -73,6 +73,8 @@ velog.io 와 github.io (깃허브 블로그)는 영국령 인도양 지역의 �
 
 > 웹호스팅
 
+<img src="https://user-images.githubusercontent.com/46777310/187682519-02103780-43f0-4d46-ba0e-627a3cf8c8e0.png">
+
 `웹호스팅`은 하나의 서버장비를 여러명이 공유하여 사용한다.
 
 장점: `저렴함`
@@ -81,6 +83,8 @@ velog.io 와 github.io (깃허브 블로그)는 영국령 인도양 지역의 �
 
 > 서버호스팅
 
+<img src="https://user-images.githubusercontent.com/46777310/187682549-50787405-a7f3-4f24-8d09-215ec2c7494f.png">
+
 `서버호스팅`은 한명의 고객이 하나의 서버를 임대하는 것
 
 장점: `많은 트래픽`
@@ -88,6 +92,8 @@ velog.io 와 github.io (깃허브 블로그)는 영국령 인도양 지역의 �
 단점: `비싸다`
 
 > 클라우드호스팅
+
+<img src="https://user-images.githubusercontent.com/46777310/187682574-61c9b04d-d8ee-44d7-bcd2-0ca898258de6.png">
 
 `클라우드호스팅`은 가상서버를 임대해서 자유롭게 스펙을 조절할 수 있고 이용한 만큼의 가격만을 지불할 수 있습니다.
 
