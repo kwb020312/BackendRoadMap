@@ -157,3 +157,103 @@ velog.io 와 github.io (깃허브 블로그)는 영국령 인도양 지역의 �
 `멀티 스레드`란 하나의 프로세스 내에서 둘 이상의 `스레드`가 동시 작업이 가능한 것을 말한다.
 
 `멀티 스레드`는 `데이터 병렬성(Data parallelism)`, `작업 병렬성(Task parallelism)` 으로 구분된다.
+
+### 💨터미널 기본 명령
+
+`grep`, `awk`, `sed`, `lsof`, `curl`, `wget`, `tail`, `head`, `less`, `find`, `ssh`, `kill`
+에 대해서 알아보겠다.
+
+> grep
+
+```linux
+grep [옵션][패턴][파일명]
+
+# 특정 파일에서 'error' 문자열 찾기
+grep 'error' 파일명
+
+# 여러개의 파일에서 'error' 문자열 찾기
+grep 'error' 파일명1 파일명2
+
+# 현재 디렉토리내에 있는 모든 파일에서 'error' 문자열 찾기
+grep 'error' *
+
+# 특정 확장자를 가진 모든 파일에서 'error' 문자열 찾기
+grep 'error' *.log
+```
+
+출처: <a href="https://coding-factory.tistory.com/802">coding-fatory님의 tistory</a>
+
+> awk
+
+```
+awk [OPTION...] 'pattern { action }' [ARGUMENT...]
+```
+
+<img src="https://user-images.githubusercontent.com/46777310/187921783-da2db0d5-3c88-4734-884a-479c4217752c.png">
+
+출처: <a href="https://recipes4dev.tistory.com/171">recipes4dev님의 tistory</a>
+
+> sed
+
+`ed`와 `grep` 명령어를 합쳐놓은 듯한 명령어로
+
+```
+치환(substitute)----------------sed 's/addrass/address/' list.txt : addrass를 address로 바꾼다. 단, 원본파일을 바꾸지 않고 표준출력만 한다.
+ 
+sed 's/\t/\ /' list.txt : 탭문자를 엔터로 변환
+ 
+------------삭제(delete)------------sed '/TD/d' 1.html : TD 문자가 포함된 줄을 삭제하여 출력한다.
+sed '/Src/!d' 1.html : Src 문자가 있는 줄만 지우지 않는다.
+sed '1,2d' 1.html : 처음 1줄, 2줄을 지운다.
+sed '/^$/d 1.html : 공백라인을 삭제하는 명령이다. (★★★)
+```
+
+출처: <a href="https://linuxstory1.tistory.com/entry/SED-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%82%AC%EC%9A%A9%EB%B2%95">Linux 세상속으로:티스토리</a>
+
+> lsof
+
+`lsof`는 `list open files`의 약자로 파일 목록을 보여주는 명령어이다.
+
+```
+$ lsof
+```
+
+위 명령어는 모든 열린 파일 정보를 출력
+
+`-i` 옵션을 주어 특정 포트 프로세스 정보 조회가 가능하며
+
+```
+$ lsof -i TCP:22
+```
+
+`+D` 옵션을 통해 특정 디렉터리 내 열린 파일 조회도 가능
+
+```
+$ lsof +D /test
+```
+
+출처: <a href="https://www.lesstif.com/system-admin/lsof-20776078.html">System Administrator님의 게시물</a>
+
+> curl
+
+`curl` 명령어는 url을 통한 웹 페이지의 접근을 담당함
+
+`naver`에 `GET`요청
+
+```
+$ curl https://www.naver.com
+```
+
+`naver`에 `POST`요청
+
+```
+$ curl -d "testParam1=123" www.naver.com
+```
+
+이외에도 `PUT`은 `-T`
+
+`DELETE`는 `-X` 명령어로 접근이 가능하다
+
+출처: <a href="https://www.crocus.co.kr/1736">Crocus님의 cURL 개념 및 사용 방법</a>
+
+> wget
