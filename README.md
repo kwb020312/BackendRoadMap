@@ -139,6 +139,21 @@ velog.io 와 github.io (깃허브 블로그)는 영국령 인도양 지역의 �
 `Terminated`: 프로세스가 종료된다.
 
 <img src="https://user-images.githubusercontent.com/46777310/187697267-39d11e3e-52de-44c4-9943-1af9767b9624.png">
+
 `PCB`: 프로세스에 대한 모든 정보가 모여있음
 
 `프로세스`는 `프로세스 큐(Queue)` 라는 곳에 모여서 순서를 대기하게 되는데 이렇게 순서를 정해주는 알고리즘을 `스케줄링(Scheduling)`이라 한다.
+
+### ☯스레드와 동시성
+
+> 해당 내용은 <a href="https://velog.io/@goban/%EC%8A%A4%EB%A0%88%EB%93%9C%EC%99%80-%EB%8F%99%EC%8B%9C%EC%84%B1">이명환 님의 Velog</a> 를 보고 작성되었음을 밝힙니다.
+
+<img src="https://user-images.githubusercontent.com/46777310/187917797-f65f879b-dfcb-483d-93fe-a29bee34aeb0.png">
+
+`스레드`란 한 프로그램 프로세스 내에서 실행되는 흐름의 단위를 말함
+
+`싱글 스레드`는 하나의 프로세스에선 하나의 `스레드`만이 실행되는 것이며
+
+`멀티 스레드`란 하나의 프로세스 내에서 둘 이상의 `스레드`가 동시 작업이 가능한 것을 말한다.
+
+`멀티 스레드`는 `데이터 병렬성(Data parallelism)`, `작업 병렬성(Task parallelism)` 으로 구분된다.
