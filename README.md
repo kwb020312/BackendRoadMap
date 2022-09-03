@@ -447,3 +447,5 @@ $ echo "foo bar baz" | wc -w
 ```
 
 위 명령어는 `|`파이프를 사용하여 `echo`명령어로 출력된 결과를 `wc`명령에 전달하는 것이다.
+
+출처: <a href="https://velog.io/@jakeseo_me/%EC%9C%A0%EB%8B%89%EC%8A%A4%EC%9D%98-stdin-stdout-stderr-%EA%B7%B8%EB%A6%AC%EA%B3%A0-pipes%EC%97%90-%EB%8C%80%ED%95%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90">Jake Seo님의 velog</a>
