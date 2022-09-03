@@ -280,4 +280,14 @@ $ tail [옵션][파일명]
 
 하나의 파일만을 볼 수 있는것이 아닌 여러 파일을 동시에 표기할 수 있다
 
-출처: <a href="https://coding-factory.tistory.com/801">coding-factory님의 tistory</
+출처: <a href="https://coding-factory.tistory.com/801">coding-factory님의 tistory</a>
+
+> head
+
+`head`명령어는 파일의 초반 부분을 출력하는 명령어이다.
+
+`tail`명령어와 상반되며 사용하는 방법또한 동일하다
+
+```
+$ head [옵션][파일명]
+```
