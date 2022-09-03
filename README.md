@@ -267,3 +267,15 @@ $ wget DOWNLOAD-URL
 // 백그라운드로 다운로드
 $ wget -b DOWNLOAD-URL
 ```
+
+출처: <a href="https://sisiblog.tistory.com/25">sisiblog님의 tistory</a>
+
+> tail
+
+`tail`명령어는 파일의 마지막 부분을 출력하는 명령어이다.
+
+```
+$ tail [옵션][파일명]
+```
+
+하나의 파일만을 볼 수 있는것이 아닌 여러 파일을 동시에 표기할 수 있다
