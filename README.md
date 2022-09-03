@@ -373,3 +373,42 @@ $ kill -(Signal Name) PID
 2. `메모리`는 크기가 작기 때문에 `프로세스`를 임시로 `디스크`에 보냈다가 다시 `메모리`에 로드해야 하는 상황이 생기는데, 이 때 디스크로 내보내는 것을 `swap out` 다시 들여보내는 것을 `swap in`이라고 한다.
 3. 프로세스 영역의 할당 방법으로는 `연속적 할당`과 `비연속적 할당`으로 나뉘는데, `고정 분할`은 분할의 크기가 모두 동일, `가변 분할`은 동적으로 변화 하는 특징이 있다. 관련 지식으로 `First-fit`, `Best-fit`, `Worst-fit`등을 알아보면 좋음
 4. `단편화`는 프로세스들이 메모리에 적재/제거 되며 사용하지 못할 공간들이 늘어나는 현상을 말하며, `외부 단편화`와 `내부 단편화`로 나뉜다
+
+출처: <a href="https://rebro.kr/178">rebro님의 게시물</a>
+
+### 🎠프로세스 간 통신
+
+`프로세스`끼리 의사소통하는 것을 `IPC`라 한다.
+
+`프로세스`간의 통신을 위한 별도의 공간을 만들어주어야 하기 때문에 `스레드`간 통신보다 어렵다
+
+> 공유 메모리
+
+<img src="https://user-images.githubusercontent.com/46777310/188258221-bd4f72fb-6183-4e84-8889-15adcf9ef3d4.png" />
+
+`프로세스`간 `메모리 영역을 공유해서 사용`
+
+> 파이프(Pipe)
+
+<img src="https://user-images.githubusercontent.com/46777310/188258258-9dac5b9c-1681-4a99-b4c2-9b042c62ae75.png" />
+
+통신을 위한 `메모리 공간(버퍼)을 생성`
+
+> 소켓(Socket)
+
+<img src="https://user-images.githubusercontent.com/46777310/188258292-dceff12b-31cb-4b5a-b6b3-319cd55fde3e.png" />
+
+각각의 PC의 `프로세스`가 확인 과정을 거쳐 연결을 진행하고 연결 후 마치 `PIPE`와 같이 `1 대 1로 데이터를 주고 받음`
+
+> 메시지 큐(Message Queue)
+
+<img src="https://user-images.githubusercontent.com/46777310/188258383-133dad10-5bbd-4717-bdd6-0211b29e5620.png" />
+
+`메모리를 사용한 PIPE`이며 `다수의 프로세스 간 메시지 전달이 가능`한 점이 있으며 접근을 위해서 `키(key)`가 필요하다.
+
+> 메모리 맵(Memory Map)
+
+<img src="https://user-images.githubusercontent.com/46777310/188258368-e3a36bef-7176-42c1-9edd-1e68edbd79c8.png" />
+
+`열린 파일을 메모리에 맵핑`. `대용량 데이터를 공유해야 할 때 사용`
+
