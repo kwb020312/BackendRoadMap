@@ -428,5 +428,22 @@ $ kill -(Signal Name) PID
 
 `인터럽트`: 예외상황이 발생하여 처리가 필요한 경우 `CPU`에게 알려 처리할 수 있도록 하는 것
 
+출처: <a href="https://velog.io/@yonii/OS-%EC%9E%85%EC%B6%9C%EB%A0%A5-%EA%B4%80%EB%A6%AC">yonii님의 velog</a>
 
+### 🧵POIX 기초
 
+`stdin`, `stdout`, `stderr`은 `stream`이라고 불린다.
+
+`stdin`은 입력 담당, `stdout`은 출력 담당, `stderr`은 디버깅 및 에러 출력용으로 사용된다.
+
+<img src="https://user-images.githubusercontent.com/46777310/188262551-d22ec048-da77-487d-967f-84ce6c5a8a1c.png"/>
+
+`Pipe`는 어떤 프로그램의 `출력 결과`를 다른 프로그램의 `입력 값`으로 사용할 때 연결해주는 매개체 역할을 수행한다.
+
+예를 들어
+
+```
+$ echo "foo bar baz" | wc -w
+```
+
+위 명령어는 `|`파이프를 사용하여 `echo`명령어로 출력된 결과를 `wc`명령에 전달하는 것이다.
