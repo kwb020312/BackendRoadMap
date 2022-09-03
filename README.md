@@ -257,3 +257,13 @@ $ curl -d "testParam1=123" www.naver.com
 출처: <a href="https://www.crocus.co.kr/1736">Crocus님의 cURL 개념 및 사용 방법</a>
 
 > wget
+
+`wget`은 인터넷에서 파일을 받는 명령어이다.
+
+```
+// 파일 다운로드
+$ wget DOWNLOAD-URL
+
+// 백그라운드로 다운로드
+$ wget -b DOWNLOAD-URL
+```
