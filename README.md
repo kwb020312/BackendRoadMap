@@ -341,3 +341,18 @@ find . -name "*test"
 - `ctime` : n일 이내에 만들어진 파일을 찾음.
 - `mtime` : n일 이내에 수정된 파일을 찾음.
 - `cnewer file` : 해당 파일보다 최근에 수정된 파일을 찾음.
+
+출처: <a href="https://coding-factory.tistory.com/804">coding-factory님의 tistory</a>
+
+> ssh
+
+`ssh`명령어는 리눅스 서버에 원격 접속할 때 사용되는 명령어이다.
+기본적으로 `22`번 포트를 사용하며
+
+```
+$ ssh root@192.168.159.129
+```
+
+위 명령어는 `ssh`로 `192.168.159.129`에 접속하는 것이다.
+
+`exit` 명령어를 입력하여 원격지 접속에 `Logout`이 가능하다
