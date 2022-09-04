@@ -485,3 +485,13 @@ $ echo "foo bar baz" | wc -w
 `Cisco`: `155`
 `Window`: `128`
 `Linux`: `64`
+
+출처: <a href="https://you4-bimi.tistory.com/5">you4-bimi님의 tistory</a>
+
+### 🥝언어 배우기
+
+`JavaScript`
+
+<img src="https://user-images.githubusercontent.com/46777310/188318997-9f0509a5-a105-4c24-b0de-3a7c8be59165.png" />
+
+이미 너무 잘 알아서 패스
