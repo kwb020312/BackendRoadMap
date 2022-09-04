@@ -449,3 +449,39 @@ $ echo "foo bar baz" | wc -w
 위 명령어는 `|`파이프를 사용하여 `echo`명령어로 출력된 결과를 `wc`명령에 전달하는 것이다.
 
 출처: <a href="https://velog.io/@jakeseo_me/%EC%9C%A0%EB%8B%89%EC%8A%A4%EC%9D%98-stdin-stdout-stderr-%EA%B7%B8%EB%A6%AC%EA%B3%A0-pipes%EC%97%90-%EB%8C%80%ED%95%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90">Jake Seo님의 velog</a>
+
+### ☮네트워크 기본 개념
+
+`네트워크`는 정보공유를 목적으로 PC와 PC가 모여 구성된 망이며, 데이터를 보내기 위한 도구들을 `프로토콜`이라고 한다.
+
+`프로토콜`: `TCP`, `IP`, `Ethernet`
+
+`프로토콜`추가를 `인캡슐레이션`, 확인을 `디캡슐레이션`이라고 한다.
+
+`LEN`: `로컬 네트워크`, `Ethernet`
+
+`WAN`: `외부 네트워크`, `ISP`
+
+`유니캐스트`: `1대 1`
+
+`브로드캐스트`: `1대 다`
+
+`멀티캐스트`: `1대 특정`
+
+<img src="https://user-images.githubusercontent.com/46777310/188317123-18f94790-b102-478f-96f3-d9f084409f08.png" />
+
+`허브`: `가까운 장비`
+`스위치`: `맥 어드레스 테이블`을 통해 컴퓨터와 통신
+`라우터`: `라우팅 테이블`을 참조하여 통신
+
+<img src="https://user-images.githubusercontent.com/46777310/188317519-0c4aa5e4-db52-4c2d-b154-2e2ad7633fa8.png" />
+
+`TCP`: `전송 제어 프로토콜`, `연결 지향성 프로토콜`, `3-Way Hand Shaking` 동작 실시
+`UDP`: `사용자 데이터그램 프로토콜`, `비연결 지향성 프로토콜`
+`IP`: `인터넷 프로토콜`, `비연결 지향성 프로토콜`
+
+`운영체제`의 `TTL` 기본값
+
+`Cisco`: `155`
+`Window`: `128`
+`Linux`: `64`
