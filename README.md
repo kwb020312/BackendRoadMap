@@ -538,3 +538,18 @@ $ echo "foo bar baz" | wc -w
 
 ### 🎟 NoSQL 데이터베이스
 
+<img src="https://user-images.githubusercontent.com/46777310/188461697-48d1d6d7-fd6a-43cd-8863-7e5fd7ca8d05.png"/>
+
+`NoSQL`데이터베이스 중 인지도 1위
+
+`NoSQL`이란 `Not Only SQL`입니다. `RDBMS`의 한계를 극복하기 위해 만들어진 새로운 형태의 데이터저장소 이므로, `RDBMS`처럼 고정된 스키마 및 `JOIN`이 존재하지 않는다.
+
+```json
+{
+    "_id": ObjectId("5099803df3f4948bd2f98391"),
+    "username": "velopert",
+    "name": { first: "M.J.", last: "Kim" }
+}
+```
+
+위와같은 예시의 `key`, `value`로 저장된다.
