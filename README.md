@@ -430,7 +430,7 @@ $ kill -(Signal Name) PID
 
 출처: <a href="https://velog.io/@yonii/OS-%EC%9E%85%EC%B6%9C%EB%A0%A5-%EA%B4%80%EB%A6%AC">yonii님의 velog</a>
 
-### 🧵POIX 기초
+### 🧵POSIX 기초
 
 `stdin`, `stdout`, `stderr`은 `stream`이라고 불린다.
 
