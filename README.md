@@ -505,3 +505,4 @@ $ echo "foo bar baz" | wc -w
 `git reset {log시 확인한 커밋 아이디} --hard`: 이전 상태로 (기록 제거)
 `git revert {log시 확인한 커밋 아이디}`: 이전 상태로 (기록 유지)
 
+출처: <a href="https://subicura.com/git/guide/basic.html#%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%84%89%E1%85%A5">Git/GitHub 안내서</a>
