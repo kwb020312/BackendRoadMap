@@ -592,3 +592,15 @@ $ echo "foo bar baz" | wc -w
 `Durability`: `지속성`으로 성공적으로 수행된 트랜잭션은 영원히 반영되어야 함을 의미한다.
 
 출처: <a href="https://ko.wikipedia.org/wiki/ACID">wikipedia</a>
+
+> 트랜잭션
+
+`트랜잭션`이란, 데이터베이스의 상태를 변화시키기 위해 수행하는 작업의 단위
+
+`Commit`: 하나의 `트랜잭션`이 성공적으로 끝났고, 데이터베이스가 일관성있는 상태에 있을 때
+
+`RollBack`: 하나의 `트랜잭션` 처리가 비정상적으로 종료되어 `원자성`이 깨진경우, 처음부터 다시 시작하거나 결과를 취소시킴
+
+출처: <a href="https://mommoo.tistory.com/62">mommoo님의 tistory</a>
+
+
