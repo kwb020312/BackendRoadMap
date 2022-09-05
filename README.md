@@ -603,4 +603,10 @@ $ echo "foo bar baz" | wc -w
 
 출처: <a href="https://mommoo.tistory.com/62">mommoo님의 tistory</a>
 
+> N+1문제
 
+`N+1 문제`란 연관 관계에서 발생하는 이슈로 연관 관계가 설정된 엔티티를 조회할 경우에 조회된 데이터 갯수(n) 만큼 연관관계의 조회 쿼리가 추가로 발생하여 데이터를 읽어오게 되는 경우
+
+`N+1 문제`는 `JPA`를 사용하며 연관관계를 맺는 엔티티를 사용한다면 한 번 쯤은 부딪힐 수 있는 문제이다.
+
+출처: <a href="https://incheol-jung.gitbook.io/docs/q-and-a/spring/n+1">incheol-jung님의 gitbook</a>
