@@ -590,3 +590,5 @@ $ echo "foo bar baz" | wc -w
 `Isolation`: `독립성`으로 트랜잭션 수행 시 다른 트랜잭션의 연산 작업이 끼어들지 못하도록 보장하는 것을 의미한다.
 
 `Durability`: `지속성`으로 성공적으로 수행된 트랜잭션은 영원히 반영되어야 함을 의미한다.
+
+출처: <a href="https://ko.wikipedia.org/wiki/ACID">wikipedia</a>
