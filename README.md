@@ -743,3 +743,7 @@ Base64로 인코딩되며 사용자 이름과 암호를 64자 세트로 저장�
 <img src="https://user-images.githubusercontent.com/46777310/188777599-3b55fee1-b11a-4004-8398-856b539ecda3.png" />
 
 출처: <a href="https://medium.com/naver-cloud-platform/nbp-%EA%B8%B0%EC%88%A0-%EA%B2%BD%ED%97%98-%EC%8B%9C%EB%8C%80%EC%9D%98-%ED%9D%90%EB%A6%84-grpc-%EA%B9%8A%EA%B2%8C-%ED%8C%8C%EA%B3%A0%EB%93%A4%EA%B8%B0-1-39e97cb3460" >nbp-기술-경험-시대의-흐름-grpc-깊게-파고들기</a>
+
+### 🎑캐시
+
+`캐시`란 데이터를 미리 복사해놓는 임시 장소이며, 접근 시간이 오래 걸리는 경우나 다시 불러오는 시간을 절약하고 싶은 경우에 사용된다.
