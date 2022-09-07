@@ -725,3 +725,19 @@ Base64로 인코딩되며 사용자 이름과 암호를 64자 세트로 저장�
 - `Uniform Interface`: 구성요소간의 인터페이스는 균일해야한다.
 - `Layered System`: 각 레이어에 속한 구성요소는 인접하지 않은 구성요소를 볼 수 없어야 한다.
 - `Code-On-Demand(Optional)`: 서버가 클라이언트에 프로그램을 전달하면 클라이언트에서 실행이 가능해야한다.
+
+> 🔮gRPC
+
+`gRCP`란 `Google Remote Procedure Call`의 약자로 Google에서 만든 RPC이다.
+
+서버간 혹은 서버와 개인 PC 간 네트워크 연결/통신이 중요해지며 `OSI 7 Layer`, `TCP/IP`등의 네트워크 계층 구조가 정의되고 발전함에 따라 메인 프레임워크의 기능을 워크스테이션 서버로 분산시키고 서버에 네트워크로 연결하는 방식을 채택하게 되는데 이 것이 `Server-Client Model`이다.
+
+기존엔 `RPG`기능을 지원하지 않고, 메시지를 Serialize할 수 있는 프레임워크인 `Protocol Buffer`만을 제공했으나 거기에 `HTTP/2`를 결합하여 `RPG`프레임워크를 탄생시킨 것이 `gRPC`이다.
+
+그렇기에 `Proto File`만 배포하면 환경과 프로그램 언어에 구애받지 않고 서로간의 통신이 가능한 것
+
+`HTTP/2`: 란 기존 `http/1.1`은 클라이언트 요청시만 서버가 응답을 해 매 요청마다 `Connection`을 생성해야 해 무거운 `header`가 요청마다 중복 전달되었다. 이를 `HTTP/2`에서는 하나의 `Connection`에 여러 메시지를 주고 받으며 `header`를 압축 후 중복 제거하여 전달하기에 훨씬 효율적임
+
+`ProtoBuf`란 `google`에서 개발한 구조화된 데이터를 직렬화 하는 기법이다. 여기서 직렬화란 데이터 표현을 바이트 단위로 변환하는 작업을 말하는데, text기반인 json은 82 byte가 쇼요되는데 반해 직렬화 된 `protocol buffer`는 필드 번호, 필드 유형을 1byte로 받아 식별하고 주어진 length 만ㅋ늠만을 읽어 33byte만 필요하게 된다.
+
+<img src="https://user-images.githubusercontent.com/46777310/188777599-3b55fee1-b11a-4004-8398-856b539ecda3.png" />
