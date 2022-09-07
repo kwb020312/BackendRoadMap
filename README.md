@@ -741,3 +741,5 @@ Base64로 인코딩되며 사용자 이름과 암호를 64자 세트로 저장�
 `ProtoBuf`란 `google`에서 개발한 구조화된 데이터를 직렬화 하는 기법이다. 여기서 직렬화란 데이터 표현을 바이트 단위로 변환하는 작업을 말하는데, text기반인 json은 82 byte가 쇼요되는데 반해 직렬화 된 `protocol buffer`는 필드 번호, 필드 유형을 1byte로 받아 식별하고 주어진 length 만ㅋ늠만을 읽어 33byte만 필요하게 된다.
 
 <img src="https://user-images.githubusercontent.com/46777310/188777599-3b55fee1-b11a-4004-8398-856b539ecda3.png" />
+
+출처: <a href="https://medium.com/naver-cloud-platform/nbp-%EA%B8%B0%EC%88%A0-%EA%B2%BD%ED%97%98-%EC%8B%9C%EB%8C%80%EC%9D%98-%ED%9D%90%EB%A6%84-grpc-%EA%B9%8A%EA%B2%8C-%ED%8C%8C%EA%B3%A0%EB%93%A4%EA%B8%B0-1-39e97cb3460" >nbp-기술-경험-시대의-흐름-grpc-깊게-파고들기</a>
