@@ -702,3 +702,26 @@ Base64로 인코딩되며 사용자 이름과 암호를 64자 세트로 저장�
 즉 `API`를 호출한 경우 `JSON`의 형태로 되어있다면 그것이 `JSON API`이다.
 
 출처: <a href="https://blog.naver.com/freemoa1/222047570809">API , JSON란 도대체 무엇일까?(쉬운 개념정리)|작성자 프리모아</a>
+
+> 🧓REST (로이필딩 논문 참고)
+
+`REST`는 `Representational State Transfer`의 줄임말로 웹을 위한 네트워크 기반 아키텍처 스타일이다.
+
+`아키텍처 스타일(Architectural style)`이란 아키텍처가 지켜야하는 제약조건들의 집합이다.
+
+`네트워크 기반 애플리케이션 아키텍처`의 관심 사항은 다음과 같다.
+
+- `성능`
+- `규모확장성(Scalability)`
+- `단순성`
+- `수정용이성(Modifiability)`
+- `가시성(Visibility)`
+- `이식성(Portability)`
+- `신뢰성(Reliability)`
+
+- `Client-Server`: 클라이언트와 서버를 분리함으로써 이식성과 서버의 규모 확장이 용이하게함
+- `Stateless`: 클라이언트와 서버에는 상태가 없으며, 요청에 필요한 모든 정보를 담아 가시성을 높여야 한다.
+- `Cache`: 효율, 규모확장성, 사용자 입장 등에서 고려해보았을 때 캐시가 가능해야한다.
+- `Uniform Interface`: 구성요소간의 인터페이스는 균일해야한다.
+- `Layered System`: 각 레이어에 속한 구성요소는 인접하지 않은 구성요소를 볼 수 없어야 한다.
+- `Code-On-Demand(Optional)`: 서버가 클라이언트에 프로그램을 전달하면 클라이언트에서 실행이 가능해야한다.
