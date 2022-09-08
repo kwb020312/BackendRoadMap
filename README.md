@@ -830,3 +830,38 @@ Base64로 인코딩되며 사용자 이름과 암호를 64자 세트로 저장�
 " />
 
 출처: <a href="https://qhrhksgkazz.tistory.com/98">위키사이트</a>
+
+> 😶scrypt & bcrypt
+
+![image](https://user-images.githubusercontent.com/46777310/189019737-e3900914-50bd-4acc-9037-c7854f9ee433.png)
+
+출처: <a href="https://velog.io/@palza4dev/%ED%8C%A8%EC%8A%A4%EC%9B%8C%EB%93%9C-%EC%95%94%ED%98%B8%ED%99%94-PBKDF2-scrypt-bcrypt-argon2">개팔자 블로그</a>
+
+암호화의 기본 동작
+
+`scrypt`
+
+- 2009년에 발표된 키 파생 기능 `KDF` 함수이다.
+- 오프라인 brute force(모든 경우의 수) 공격에 대해 강력하지만, 많은 메모리와 CPU 사용
+- `OpenSSL 1.1`이상에서만 제공
+- 여러 언어 지원
+
+```
+DIGEST = scrypt(Password, Salt, N, r, p, DLen)  
+Password: 패스워드
+Salt: 암호학 솔트
+N: CPU 비용
+r: 메모리 비용
+p: 병렬화(parallelization)
+DLen: 원하는 다이제스트 길이
+```
+
+`bcrypt`
+
+- 패스워드 저장 목적으로 설계된 함수
+- gensalt()의 `work factor`를 조정하는 것만으로 보안성 향상 가능
+- `Blowfish` 암호 기반의 암호화 함수이며 현재 사용중인 가장 강력한 해시 매커니즘 중 하나
+- `OpenBSD`에서 사용중(컴퓨터 보안에 특화된 오픈소스 운영 체제)
+- 다양한 언어 지원
+- Slating과 Key stretching으로 Rainbow table attack, brute-force 공격에 대비 가능
+- 입력 값으로 72 bytes character를 사용해야하는 제약
