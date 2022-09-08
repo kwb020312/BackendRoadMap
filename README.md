@@ -938,10 +938,20 @@ DLen: 원하는 다이제스트 길이
 
 `SOLID`원칙들은 프로그래머의 가독성을 높이고 확장하기 쉽게 리팩터링하며 `애자일 소프트웨어 개발`과 `적응적 소프트웨어 개발`의 전반적 전략의 일부를 담당한다.
 
-출처: <a href="https://ko.wikipedia.org/wiki/SOLID_(%EA%B0%9D%EC%B2%B4_%EC%A7%80%ED%96%A5_%EC%84%A4%EA%B3%84)">위키백과 SOLID</a>
-
 `S`: `단일 책임 원칙`, 한 클래스는 하나의 책임만 가져야 한다.
 `O`: `개방-폐쇄 원칙`, 확장에는 열려 있으나 변경에는 닫혀 있어야 한다.
 `L`: `리스코프 치환 원칙`, 객체는 프로그램의 정확성을 깨지 않으면서 하위 인스턴스로 바꿀 수 있어야 한다.
 `I`: `인터페이스 분리 원칙`, 특정 클라이언트를 위한 인터페이스 여러 개가 범용 인터페이스 하나보다 낫다.
 `D`: `의존관계 역전 원칙`, 프로그래머는 추상화에 의존하되, 구체화에 의존하면 안된다.
+
+출처: <a href="https://ko.wikipedia.org/wiki/SOLID_(%EA%B0%9D%EC%B2%B4_%EC%A7%80%ED%96%A5_%EC%84%A4%EA%B3%84)">위키백과 SOLID</a>
+
+>  😘KISS 원칙
+
+`KISS`는 `Keep it small and simple`, `Keep it short and simple`, `Keep it simple, stupid`의 첫글자만 따서 만든 약어로, 디자인에서 간단하고 알기 쉽게 만드는 편이 좋다는 원리를 말한다.
+
+이 디자인 원리는 쉽게 이해되는 해결 방법을 최적의 해결책으로 생각한다.
+
+출처: <a href="https://ko.wikipedia.org/wiki/KISS_%EC%9B%90%EC%B9%99">위키백과 KISS 원칙</a>
+
+
