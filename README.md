@@ -990,3 +990,42 @@ DLen: 원하는 다이제스트 길이
 3. 개발자의 이해가 어렵고 유지보수가 힘들다.
 4. 일부의 오류가 전체에 영향을 미친다.
 5. 기능에 맞는 언어 선택이 어렵다.
+
+### 🐑마이크로서비스
+
+`마이크로서비스`란 API를 통해 통신하는 소규모의 독립적인 서비스이다.
+
+`마이크로서비스` 아키텍처는 애플리케이션 확장에 용이하다.
+
+![image](https://user-images.githubusercontent.com/46777310/189136637-be139605-62ac-4533-a08c-dc10f442260f.png)
+
+특징으로 `자율성`과 `전문성`이 있는데, 다른 서비스에 기능 영향을 미치지 않으면서 `개발`, `배포`, `운영`, `확장`이 가능하고 통신은 `API`를 통해 이루어지며 `자율성`이 보장된다.
+
+각 서비스는 일련의 기능을 위해 설계되며 특정 문제를 해결하는데 중점을 두는 `전문성`의 특징이 있다.
+
+![image](https://user-images.githubusercontent.com/46777310/189137086-7759ea9b-1275-46fc-8eec-c191a4996d20.png)
+
+`민첩성`, 소규모 콘텍스트 내에서 독립적인 역할을 수행하기에 개발 주기 시간이 단축된다.
+
+![image](https://user-images.githubusercontent.com/46777310/189137280-5e5dcddb-b4dc-4c7e-9502-03a73c442593.png)
+
+`유연한 확장성`, 필요한 인프라 규모를 적절하게 조절하고, 기능과 비용 측정 및 수요 급증시에도 가용성 유지가 가능하다.
+
+![image](https://user-images.githubusercontent.com/46777310/189137443-694a9bdc-6edd-44f8-9231-46f17e48e741.png)
+
+`손쉬운 배포`, 저렴한 실패 비용으로 쉽게 코드를 업데이트하고 새로운 기능을 맘편히 개발할 수 있다.
+
+![image](https://user-images.githubusercontent.com/46777310/189138134-9b0b6def-f66f-40ca-aaa4-46e466710dc0.png)
+
+`기술적 자유`, 도구 선택이 자유로우며 작업별로 가장 적합한 도구 선택이 가능하다.
+
+![image](https://user-images.githubusercontent.com/46777310/189138853-43173d0f-c806-4dc5-845e-63f4f065347f.png)
+
+`재사용 가능한 코드`, 소규모 모듈로 기능을 분할하면 다른 프로젝트에서도 새 기능을 생성할 수 있어 자체적으로 부트스트랩 작업 생성이 가능하다.
+
+![image](https://user-images.githubusercontent.com/46777310/189139112-a8a168c2-9fbf-4d49-b753-bde17b1a224a.png)
+
+`복원성`, 서비스 오류시에도 애플리케이션이 충돌하지않고 서비스 실패를 처리할 수 있다.
+
+출처: <a href="https://aws.amazon.com/ko/microservices/">AWS microservices</a>
+
