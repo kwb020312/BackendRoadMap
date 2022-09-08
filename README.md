@@ -821,3 +821,12 @@ Base64로 인코딩되며 사용자 이름과 암호를 64자 세트로 저장�
 그렇기에 현재는 `MD5`알고리즘을 보안 용도로 사용하지 않으며 심각한 문제를 야기할 수 있다.
 
 출처: <a href="https://ko.wikipedia.org/wiki/MD5">위키피디아 MD5</a>
+
+> 😗SHA 함수군
+
+`SHA` 함수들은 `암호학적 해시 함수`들의 모음이다. 최초의 함수는 `SHA-0`이고 그 후에 `SHA-1`와 변형된 함수인 `SHA-2(SHA-224, SHA-256, SHA-384, SHA-512)`가 존재한다.
+
+<img src="![image](https://user-images.githubusercontent.com/46777310/189019229-6b5686a0-01ff-46b3-a852-8e1e59f7e29e.png)
+" />
+
+출처: <a href="https://qhrhksgkazz.tistory.com/98">위키사이트</a>
