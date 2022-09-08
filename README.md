@@ -878,3 +878,7 @@ DLen: 원하는 다이제스트 길이
 
 출처: <a href="https://www.digicert.com/kr/what-is-ssl-tls-and-https">digicert, what is ssl tls and https</a>
 
+> 🧬OWASP
+
+`OWASP(The Open Web Application Security Project)`: 오픈소스 웹 애플리케이션 보안 프로젝트이며, `OWASP TOP 10`을 선정하여 취약점 중에서 빈도가 많이 발생하고, 보안상 영향을 크게 줄 수 있는 요소를 선정하여 발표한다.
+
