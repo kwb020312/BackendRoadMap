@@ -1125,3 +1125,23 @@ DLen: 원하는 다이제스트 길이
 특징으로 `Query 및 Mutation 직접 전송`, `전송받은 데이터 캐싱`, `Local State관리` 등이 있다.
 
 출처: <a href="https://hellominchan.tistory.com/227">hellominchan님의 tistory</a>
+
+### 🦁웹 서버
+
+> 🦡Nginx
+
+`Nginx`는 경량 웹 서버이다. 클라이언트에게 요청을 받고 응답해주는 `HTTP Web Server`로 활용되기도 하며
+
+`Reverse Proxy Server`로 활용하여 `WAS`서버 과부하를 줄이는 `로드 밸런서`로 활용되기도 한다.
+
+Nginx의 흐름
+
+![image](https://user-images.githubusercontent.com/46777310/189670618-198afaf0-7849-4e37-b151-4f253d81ef11.png)
+
+Nginx의 구조는 아래와 같다.
+
+![image](https://user-images.githubusercontent.com/46777310/189672152-b2b579d8-2328-4475-9235-79a6951b67b1.png)
+
+
+
+출처: <a href="https://velog.io/@wijihoon123/Nginx%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80">Nginx란 무엇인가</a>
