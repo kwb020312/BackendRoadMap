@@ -1066,4 +1066,10 @@ DLen: 원하는 다이제스트 길이
 - `종속성 문제 가능성`
 - `시스템 업그레이드 비용`
 
+### 🐦검색엔진 
 
+> 👽Elasticsearch
+
+`Elasticsearch`는 `RESTful` 검색 및 분석 엔진입니다.
+
+`Elasticsearch`는 전문 검색 쿼리를 위해 인덱스를 구현하고, 숫자 및 위치 데이터 저장을 위해 `BKD tree`저장을 구현했다.
