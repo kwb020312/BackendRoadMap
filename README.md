@@ -1086,5 +1086,30 @@ DLen: 원하는 다이제스트 길이
 
 `STOMP`, `MQTT`등의 프로토콜을 지원하기 위해 플러그인 구조와 함께 확장되고있다.
 
+### 🐳컨테이너화 대 가상화
+
+> 🐙Docker
+
+`도커`는 리눅스 응용 프로그램들을 컨테이너로 실행하고 관리하는 오픈 소스 프로젝트이다.
+
+도커 컨테이너는 일종의 소프트웨어를 실행에 필요한 모든 것을 포함하는 완전한 파일 시스템 안에 감싼다.
+
+![image](https://user-images.githubusercontent.com/46777310/189663379-a153d18c-0a78-45cb-a4dd-69c943181ed1.png)
+
+서버 관리자 입장에서 CPU사용률이 낮은 리소스 낭비를 줄이고자 `안전성`과 `리소스 활용`을 최대한으로 끌어올릴 수 있는 아이디어가 바로 `서버 가상화`이다.
+
+여기서 `컨테이너`란?
+
+![image](https://user-images.githubusercontent.com/46777310/189663704-357388cc-cecf-4454-956d-893a4cda4112.png)
+
+`OS`레벨의 가상화로 프로세스를 격리시켜 동작하는 방식이다.
+
+도커를 사용하는 이유는 `성능 향상`, `뛰어난 이식성`, `Scale Out`의 용이성이다.
+
+![image](https://user-images.githubusercontent.com/46777310/189664140-177d56d9-4f75-4bed-a860-218dd522dfc4.png)
+
+![image](https://user-images.githubusercontent.com/46777310/189664210-fe9a574b-3018-4ac5-8c9d-285b049f212a.png)
+
+
 
 
