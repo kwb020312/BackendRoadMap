@@ -1110,6 +1110,18 @@ DLen: 원하는 다이제스트 길이
 
 ![image](https://user-images.githubusercontent.com/46777310/189664210-fe9a574b-3018-4ac5-8c9d-285b049f212a.png)
 
+### 🧞‍♀️GraphQL
 
+> 🐕Apollo
 
+![image](https://user-images.githubusercontent.com/46777310/189666171-3b6fda30-5c4f-4bad-b24f-2643a97d110f.png)
 
+`Apollo`란 `GraphQL`의 클라이언트 라이브러리 중 하나로 `GraphQL`의 상태 관리를 지원하는 플랫폼이다.
+
+`Facebook`에서 개발한 `Relay`도 있지만, 학습 비용이 높고 `React`계열만 지원한다는 단점이 있으며, 반면 `Apollo`는 러닝커브가 높지 않을 뿐더러 `React`, `Angular`, `Vue`모두 지원하여 인기가 높다.
+
+![image](https://user-images.githubusercontent.com/46777310/189667786-4754cc85-bff9-40b1-b777-48db7ba20bad.png)
+
+특징으로 `Query 및 Mutation 직접 전송`, `전송받은 데이터 캐싱`, `Local State관리` 등이 있다.
+
+출처: <a href="https://hellominchan.tistory.com/227">hellominchan님의 tistory</a>
