@@ -1143,5 +1143,18 @@ Nginx의 구조는 아래와 같다.
 ![image](https://user-images.githubusercontent.com/46777310/189672152-b2b579d8-2328-4475-9235-79a6951b67b1.png)
 
 
-
 출처: <a href="https://velog.io/@wijihoon123/Nginx%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80">Nginx란 무엇인가</a>
+
+### 👩‍👩‍👧‍👧확장성 있는 구축
+
+`확장성 있는 구축`: 제품의 지속 가능성을 위해 알아두고 주의해야 할 일반적인 주체
+
+> 🕊완화(mitigation)전략
+
+- `Graceful` 
+- `Degradation`
+- `Throttling`
+- `Backpressure`
+- `Loadshifting`
+- `Circuit Breaker`
+
