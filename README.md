@@ -1178,6 +1178,4 @@ Nginx의 구조는 아래와 같다.
 
 하지만 단일 장애점을 갖지 않으므로 장애 발생시 치명상을 피할 수 있으며, 이론적으로 확장에 제한이 없어 한계점이 없다고 보면 된다.
 
-
-
 출처: <a href="https://hudi.blog/scale-up-vs-scale-out/">scale-up-vs-scale-out</a>
